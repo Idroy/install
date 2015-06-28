@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Trashcan
+Comment= Place for your hot garbage
+Exec=xdg-open trash:///
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=user-trash
+X-Ayatana-Desktop-Shortcuts=Empty;
+[Empty Shortcut Group]
+Name=Empty
+Exec=trash-empty
+TargetEnvironment=Unity
