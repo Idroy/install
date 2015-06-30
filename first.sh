@@ -1,3 +1,4 @@
+cp ~/install/.vimrc ~/.vimrc
 if [ "$(id -u)" = "0" ]; then
 		echo "/dev/sda2 /mnt/windows ntfs-3g defaults 0 0" >> /etc/fstab
 		rm -rf /home/yordi/Downloads
