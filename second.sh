@@ -15,5 +15,6 @@ gsettings set org.mate.interface icon-theme 'Numix-Circle'
 gsettings set org.mate.interface gtk-theme 'Yuyo Dark'
 gsettings set org.mate.Marco.general theme 'Yuyo'
 gsettings set org.mate.Marco.general compositing-manager true
+gsettings set org.mate.peripherals-mouse cursor-theme DMZ-Black
 echo "Done"
 exit 0
