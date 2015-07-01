@@ -10,3 +10,5 @@ mkdir /home/yordi/.vim
 mkdir /home/yordi/.vim/undodir
 cp /home/yordi/install/.vimrc /home/yordi/.vimrc
 cp -r /home/yordi/install/Numix /home/yordi/.local/share/plank/themes/Numix
+echo "Done"
+exit 0
