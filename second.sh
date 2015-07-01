@@ -10,5 +10,10 @@ mkdir $HOME/.vim
 mkdir $HOME/.vim/undodir
 cp $HOME/install/.vimrc $HOME/.vimrc
 cp -r $HOME/install/Numix $HOME/.local/share/plank/themes/Numix
+cp $HOME/install/.bashrc $HOME/.bashrc
+gsettings set org.mate.interface icon-theme 'Numix-Circle'
+gsettings set org.mate.interface gtk-theme 'Yuyo Dark'
+gsettings set org.mate.Marco.general theme 'Yuyo'
+gsettings set org.mate.Marco.general compositing-manager true
 echo "Done"
 exit 0
