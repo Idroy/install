@@ -1,4 +1,6 @@
 # Readme
 Use first.sh to add windows partition to /mnt/windows and make symbolic links from windows partition to home folder
 
-The .desktop files are modified for use with plank. Copy to /usr/share/applications/ or use the plank-launchers.sh
+Use second.sh to install programs and copy the .desktop files to /usr/share/applications/ 
+
+Use third.sh to install the icon themes and to make vim usable. It also makes plank use the launchers I want to use.
