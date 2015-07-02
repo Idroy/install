@@ -12,10 +12,13 @@ if [ "$(id -u)" = "0" ]; then
 		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Videos $HOME/
 		apt-get update
 		apt-get upgrade
-		apt-get install vim keepassx gdebi-core rar unrar ubuntu-restricted-extras
+		apt-get install vim clementine plank keepassx gdebi-core rar unrar ubuntu-restricted-extras
 		wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb http://media.steampowered.com/client/installer/steam.deb
 		dpkg -i google-chrome*.deb
 		gdebi steam.deb
+		cp $HOME/install/caja.desktop /usr/share/applications/caja.desktop
+       		cp $HOME/install/mate-terminal.desktop /usr/share/applications/mate-terminal.desktop
+        	cp $HOME/install/google-chrome.desktop /usr/share/applications/google-chrome.desktop       
 		apt-get -f install		
 		echo "Done"          
 		exit 0
