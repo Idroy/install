@@ -5,11 +5,11 @@ if [ "$(id -u)" = "0" ]; then
 		rm -rf $HOME/Music
 		rm -rf $HOME/Documents
 		rm -rf $HOME/Videos
-		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Downloads $HOME/
-		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Pictures $HOME/
-		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Music $HOME/
-		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Documents $HOME/
-		ln -s /mnt/windows/Documents\ and\ Settings/Yordi/Videos $HOME/
+		ln -s /mnt/windows/Documents\ and\ Settings/yordi/Downloads $HOME/
+		ln -s /mnt/windows/Documents\ and\ Settings/yordi/Pictures $HOME/
+		ln -s /mnt/windows/Documents\ and\ Settings/yordi/Music $HOME/
+		ln -s /mnt/windows/Documents\ and\ Settings/yordi/Documents $HOME/
+		ln -s /mnt/windows/Documents\ and\ Settings/yordi/Videos $HOME/
 		apt-get update
 		apt-get upgrade
 		apt-get install vim clementine plank keepassx gdebi-core rar unrar ubuntu-restricted-extras
